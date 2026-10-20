@@ -1,0 +1,18 @@
+{
+  "name": "omni-parser",
+  "version": "1.0.0",
+  "description": "REST service by @kakavindu16-gif",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "kakavindu16-gif",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  }
+}
